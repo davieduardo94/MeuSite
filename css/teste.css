@@ -1,0 +1,175 @@
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+header {
+    position: relative;
+}
+.imagem {
+    float: left
+}
+.sacola  {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right:35px;
+    text-align: right;
+    width: 140px;
+    
+}
+.sacola {
+    float: right;
+    top:0;
+    right: 0;
+    padding-top: 8px;
+}
+.menu-opcoes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menu-opcoes li {
+    float: left
+}
+.menu-opcoes li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+.menu-opcoes li a:hover {
+    background-color: #111;
+}
+.menu-opcoes button {
+    font-size: 14px;
+    text-align: center;
+    float: right;
+}
+
+
+.btn-info {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    float: right;
+    width: 130px;
+    height: 55px;
+    background-color: #C0C0C0;
+}
+.btn-info:hover {
+    background-color: #111;
+}
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande" , sans-serif;
+    }
+.test li:first-child {
+    color: red;
+}
+.test li:last-child {
+    color: blue;
+}
+.test li:nth-child(3) {
+    color: yellow;
+}
+.test li:nth-child(2n) {
+    color: green;
+}
+.test li::nth-child(2n+1){
+    color: blue;
+}
+.test p:first-letter {
+    font-size: 200%;
+}
+.test p:first-line{
+    font-style: italic;
+}
+.test a:before {
+    content: '\26DF';
+}
+.test a:after {
+    content: ']';
+}
+.seletores h2 ~p { /*seletor de irmãos, seleciona todas as tags p depois do H2*/
+    font-style: italic;
+}
+.seletores h2 + p { /* seletor de irmao adjacente pega a tag p logo apos h2 */
+    font-variant: small-caps;
+}
+.artic > h1 { /*pega o h1 principal filho de article */
+    color: blue;
+} 
+#crossfade {
+    position: relative;
+    height: 250px;
+    width: 400px;
+    
+}
+#crossfade img {
+    border-image-slice: middle;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;  /* webkit - prefixos dos navegadores suportados (Chrome, Safari, IOS, Android*/
+    -moz-transition: opacity 1s ease-in-out;    /*  moz - prefixo do navegador suportado (Mozilla) */
+    -o-transition: opacity 1s ease-in-out;     /* o- - prefixo do navegador suportado (opera) */
+    -ms-transition: opacity 1s ease-in-out;   /*  ms- - prefixo do navegador suportado (internet Explorer) */
+    transition: opacity 1s ease-in-out;
+}
+#crossfade img.top:hover {
+    opacity: 0;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #dcdcdc;
+}
+.navbar li a:hover {
+    background-color: #111;
+}
+.dropbtn { /* começo dropdown */
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.linear {
+    background:  linear-gradient(white , blue, darkcyan);
+    float: left;
+}
+.gradiente {
+    background: linear-gradient(45deg, #f0f9ff 45%, #cbebff 47%, #a1dbff 70%);
+    float: left;
+}
+.radial {
+    background: linear-gradient(white, black, red);
+    float: left;
+    clear: right;
+}
+.test2  {
+    position: relative;
+    top: 0;
+}
+.test2 img:hover {
+    top: 30px;
+}
+.test2 img:hover {
+    transition: top 2s;
+}

@@ -1,0 +1,182 @@
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+header {
+    position: relative;
+}
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-opcoes ul {
+    font-size: 15px;
+}
+/*.menu-opcoes ul {
+    list-style: none;
+    margin: 5px auto auto 1px;;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A9A9A9;
+}*/
+.menu-opcoes a {
+    color: #003366;
+    /*text-transform: uppercase ;*/ /*configuraca adicionada a partir daqui*/ 
+    /*text-decoration: none;*/
+     /*fim*/
+}
+/*.menu-opcoes a::active {
+    background-color: gray;
+}*/
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.menu-opcoes li {
+    margin-inline-end: 15px;
+}
+/*.menu-opcoes li {
+    float: left
+}
+.menu-opcoes li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+.menu-opcoes li a:hover {
+    background-color: #111;
+}*/
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.busca,
+.menu-departamentos {
+    float: left;
+    clear: left;
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.menu-departamentos li:hover {/*personalizando o menu com hover */
+    background-color: #dcdcdc;
+}
+.menu-departamentos li:active {
+    background-color: gray;
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2  {
+    margin: 10px;
+}
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+    display: block;
+}
+.busca input {
+    vertical-align: middle;
+    }
+.busca input[type= search] {
+    width: 170px;
+    border-radius: 50px;
+}
+.busca {
+    /*border-top-left-radius: 4%;*/
+    /*border-top-right-radius: 4%;*/
+    border-radius: 5px;
+}
+.destaque {
+    margin-top: 10px;
+}
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+    border-radius: 4%;
+    box-shadow: inset 1px 1px 4px #999;
+}
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    /*text-shadow: 3px 3px 2px #FFF; refazer as alteracoes apos teste*/
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+.painel a {
+    color: #333;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.novidades {
+    float: left;
+    /*background-color: #f0c8c8;*/
+    /*box-shadow: 0px 0px 5px 5px #FFC0CB;*/
+    background: linear-gradient(#f5bfbf, #ff8f8f);/*usando gradient*/
+}
+.novidades > h2 { /*seletor de irmao */
+    color: #333;
+}
+.novidades img {
+    border-radius: 50%; 
+}
+.novidades li:hover { /*hover nos itens do painel novidades*/
+    transform: translate(0,-10px);
+}
+.novidades:hover { /*adicionando o hover ao box shadow */
+    box-shadow: 0px 0px 5px 5px #ec9090;
+    transition: box-shadow 0.2s;
+}
+.mais-vendidos {
+    float: right;
+    /*background-color: #dcdcf5;*/
+    /*box-shadow:  inset 1px 1px 5px 4px#CECEFF*/
+    background: linear-gradient(#ececff, #a1b2fb);/*usando gradient*/
+}
+.mais-vendidos > h2 {
+    color: #333;
+}
+.mais-vendidos:hover {
+    box-shadow: 0px 0px 5px 5px #A2A2F2;
+    transition: box-shadow 0.2s;
+}
+.mais-vendidos img {
+    border-radius: 50%;
+}
+.mais-vendidos li:hover { /*hover nos itens do painel mais vendidos*/
+    transform: translate(0,-10px);
+}
