@@ -1,4 +1,4 @@
-       <!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
     <head>
         <title><?php print $cabecalho_title; ?></title>
@@ -34,3 +34,4 @@
                 </ul>
             </nav><!--fim bloco-->
         </header>			         <!--fim cabecalho-->
+        </body>
