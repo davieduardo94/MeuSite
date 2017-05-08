@@ -6,8 +6,9 @@
 <?php
         $cabecalho_title = "Inicio";
         include ("cabecalho.php");
-?>        
-	
+?>
+
+
 <div class="container destaque">
 
         <section class="busca">
@@ -34,7 +35,7 @@
                     </ul>
                 </li>
                 <li><a href="#">calças</a></li>
-                <li><a href="#">saias</a></li> 
+                <li><a href="#">saias</a></li>
                 <li><a href="#">vestidos</a></li>
                 <li><a href="#">sapatos</a></li>
                 <li><a href="#">bolsas e carteiras</a></li>
