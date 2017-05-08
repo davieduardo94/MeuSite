@@ -21,11 +21,11 @@
             <p class="sacola">
                 Nenhum item na sacola de compras
             </p>
-            
+
             <nav class="menu-opcoes"><!--blocos de nvaegacao-->
                 <ul>
                     <li><a href="index.php">Inicio</a></li>
-                    <li><a href="#">Sua Conta</a></li>
+                    <li><a href="produto.php">Produto</a></li>
                     <li><a href="#">Lista de desejos</a></li>
                     <li><a href="#">Cartão Fidelidade</a></li>
                     <li><a href="sobre.php">Sobre</a></li>
