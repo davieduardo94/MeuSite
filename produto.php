@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html>
 <?php
-<<<<<<< HEAD
     $cabecalho_css = '<link rel="stylesheet" href="css/estilo.css"
                       <link rel="stylesheet" href="css/reset">
                       <link rel="stylesheet" href="css/produto.css">
                       ';
-=======
-    $cabecalho_css = '<link rel="stylesheet" href="css/produto.css">
-                      <link rel="stylesheet" href="css/estilo.css"';
->>>>>>> a3e02325c52d6adf371db096b0e632b8ab608160
 ?>
 
 <?php
@@ -29,11 +24,8 @@
           <fieldset class="cores">
               <legend> Escolha a cor: </legend>
 
-<<<<<<< HEAD
               <input type="radio" name="cor" id="verde" checked="">
-=======
               <input type="radio" name="cor" id="verde" checked>
->>>>>>> a3e02325c52d6adf371db096b0e632b8ab608160
               <label for="verde">
                 <img src="img/produtos/foto2-verde.png" alt="Produto na cor verde">
               </label>
