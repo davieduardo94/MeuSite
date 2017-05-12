@@ -3,6 +3,11 @@
         display: table-column;
       }
 }
+/*@media (min-width: 600px) {
+  img   {
+    float: left;
+  }
+}*/
 .cores {
   position: relative;
   padding-top: 90px;
@@ -52,7 +57,7 @@ label[for=azul]:after {
 }
 .produto {
   color: #333;
-  line-height: 1.3;
+  line-height: 1.3em;
   margin-top: 2em;
 }
 .produto h1 {
@@ -79,4 +84,13 @@ label[for=azul]:after {
   display: block;
   padding: 0.5em 1em;
   margin: 1em 0;
+}
+.cores label:after{
+  border: 6px solid rgba(0,0,0,0);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.cores label:hover:after{
+  border: 6px solid rgba(0,0,0,0.1);
 }
