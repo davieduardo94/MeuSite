@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <?php
+<<<<<<< HEAD
     $cabecalho_css = '<link rel="stylesheet" href="css/estilo.css"
                       <link rel="stylesheet" href="css/reset">
                       <link rel="stylesheet" href="css/produto.css">
                       ';
+=======
+    $cabecalho_css = '<link rel="stylesheet" href="css/produto.css">
+                      <link rel="stylesheet" href="css/estilo.css"';
+>>>>>>> a3e02325c52d6adf371db096b0e632b8ab608160
 ?>
+
 <?php
     $cabecalho_title = "Produto da Mirror Fashion";
     include ("cabecalho.php");
@@ -16,14 +22,18 @@
         <!--aqui vem o miolo da pagina-->
   <div class="container">
       <div class="produto">
-        <h1> Fuzzy Cardigan </h1>
+        <h1>Fuzz Cardigan</h1>
         <p> por apenas R$ 129,00 </p>
 
         <form>
           <fieldset class="cores">
               <legend> Escolha a cor: </legend>
 
+<<<<<<< HEAD
               <input type="radio" name="cor" id="verde" checked="">
+=======
+              <input type="radio" name="cor" id="verde" checked>
+>>>>>>> a3e02325c52d6adf371db096b0e632b8ab608160
               <label for="verde">
                 <img src="img/produtos/foto2-verde.png" alt="Produto na cor verde">
               </label>
