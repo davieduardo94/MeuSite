@@ -57,7 +57,7 @@ label[for=azul]:after {
 }
 .produto {
   color: #333;
-  line-height: 1.3em;
+  line-height: 1.5em;
   margin-top: 2em;
 }
 .produto h1 {
@@ -65,7 +65,7 @@ label[for=azul]:after {
   font-weight: bold;
 }
 .produto p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-style: italic;
   margin-bottom: 1em;
 }
@@ -93,4 +93,17 @@ label[for=azul]:after {
 }
 .cores label:hover:after{
   border: 6px solid rgba(0,0,0,0.1);
+}
+@@media (min-width: 630px) {
+  .produto {
+    position: relative;
+    padding-left: 40%;
+  }
+  .cores {
+    position: static;
+    padding: 0;
+  }
+  .cores legend {
+    position: static;
+  }
 }
