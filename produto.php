@@ -24,7 +24,6 @@
           <fieldset class="cores">
               <legend> Escolha a cor: </legend>
 
-              <input type="radio" name="cor" id="verde" checked="">
               <input type="radio" name="cor" id="verde" checked>
               <label for="verde">
                 <img src="img/produtos/foto2-verde.png" alt="Produto na cor verde">
