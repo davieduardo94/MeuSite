@@ -39,6 +39,12 @@
                 <img src="img/produtos/foto2-azul.png" alt="Produto na cor azul">
               </label>
           </fieldset>
+          <fieldset  class="tamanhos">
+            <legend>Escolha o tamanho:</legend>
+
+            <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho" />
+          </fieldset>
+
 
           <input type="submit" class="comprar" value="Comprar">
         </form>
