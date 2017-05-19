@@ -15,6 +15,7 @@
     <body>
 
         <!--aqui vem o miolo da pagina-->
+<div class="produto-back">
   <div class="container">
       <div class="produto">
         <h1>Fuzz Cardigan</h1>
@@ -85,6 +86,7 @@ mesmo pela nossa entrega a jato.</p>
 </table>
       </div>
     </div>
+  </div>
 
         <?php include ("rodape.php");?>
     </body>
