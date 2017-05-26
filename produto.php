@@ -27,17 +27,17 @@
 
               <input type="radio" name="cor" id="verde" checked>
               <label for="verde">
-                <img src="img/produtos/foto2-verde.png" alt="Produto na cor verde">
+                <img src="img/produtos/foto2-verde.png" alt="verde">
               </label>
 
               <input type="radio" name="cor" id="rosa">
               <label for="rosa">
-                <img src="img/produtos/foto2-rosa.png" alt="Produto na cor rosa">
+                <img src="img/produtos/foto2-rosa.png" alt="rosa">
               </label>
 
               <input type="radio" name="cor" id="azul">
               <label for="azul">
-                <img src="img/produtos/foto2-azul.png" alt="Produto na cor azul">
+                <img src="img/produtos/foto2-azul.png" alt="azul">
               </label>
           </fieldset>
           <fieldset  class="tamanhos">
