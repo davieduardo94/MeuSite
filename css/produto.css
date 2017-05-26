@@ -97,14 +97,15 @@ label[for=azul]:after{
 .cores label:hover:after{
   border: 6px solid rgba(0,0,0,0.1);
 }
-fieldset{
-  display: inline-block;
-  vertical-align: top;
-  margin: 1em 0;
-  min-width: 200px;
-  width: 45%;
-}
+
 @media (min-width: 630px){
+  fieldset{
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em 0;
+    min-width: 200px;
+    width: 45%;
+  }
   .produto {
     position: relative;
     padding-left: 40%;
