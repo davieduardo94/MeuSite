@@ -69,7 +69,7 @@ mesmo pela nossa entrega a jato.</p>
   </thead>
   <tbody>
     <tr>
-      <td>M0DEL0</td>
+      <td>Modelo</td>
       <td>Cardigã 7845</td>
     </tr>
     <tr>
