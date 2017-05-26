@@ -13,33 +13,41 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  position: absolute;
   top: 30px;
 }
 label[for=verde]:after{
   background-color: #33CC66;
-  left: 0;
 }
 label[for=rosa]:after{
   background-color: #FF6666;
-  left: 60px;
 }
 label[for=azul]:after{
   background-color: #6666ff;
+}
+label[for=verde]:after{
+  left: 0;
+}
+label[for=rosa]:after{
+  left: 60px;
+}
+label[for=azul]:after{
   left: 120px;
 }
 .cores input:checked + label:after{
   border: 6px solid rgba(0,0,0, 0.3);
 }
 .cores label:after{
--moz-box-sizing: border-box;
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
 }
 .cores input[type=radio]{
   display: none;
 }
 .cores input:not(:checked) + label img{
   display: none;
+}
+.cores label:after{
+  position: absolute;
 }
 .cores legend{
   position: absolute;
@@ -100,6 +108,7 @@ fieldset{
   .produto {
     position: relative;
     padding-left: 40%;
+    font-size: 1.2em;
   }
   .cores{
     position: static;
@@ -118,6 +127,7 @@ fieldset{
   .cores label:after{
     position: static;
     float: left;
+    margin-right: 10px;
   }
 }
 .detalhes{
