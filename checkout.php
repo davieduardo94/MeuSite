@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Checkout Mirror Fashion</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icone.ico">
     <meta name="viewport" content="width-device-width">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
