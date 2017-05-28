@@ -24,8 +24,11 @@
             <h2 class="panel-title">Sua compra</h2>
           </div><!-- fim .panel-heading -->
         <div class="panel-body">
-          <img src="img/produtos/foto<?= $_POST["id"] ?>-<?= $_POST["cor"] ?> .png"
-              class="img-thumbnail img-responsive">
+
+          <img src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan"
+class="img-thumbnail img-responsive"><!-- uma imagem estática sem envolver o PHP -->
+          <!-- <img src="img/produtos/foto<?= $_POST["id"] ?>-<?= $_POST["cor"] ?> .png"
+              class="img-thumbnail img-responsive"> -->
           <dl>
             <dt>Cor</dt>
             <dd><?=$_POST['cor']?></dd>
