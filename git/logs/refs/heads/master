@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 73b4f94ee039a14097c013d467884a5aa4c5b3bd davieduardo94 <davieduardo94@gmail.com> 1495667393 -0400	clone: from https://github.com/davieduardo94/MeuSite
+73b4f94ee039a14097c013d467884a5aa4c5b3bd 458d0d0396c4c22b9dcf2727426b2d320b5b9fb1 davieduardo94 <davieduardo94@gmail.com> 1495762201 -0400	commit: correcao de espacamento e layout da pag produto
+458d0d0396c4c22b9dcf2727426b2d320b5b9fb1 39b71a1a998f07acce84eb1ca927a31ab88b7f66 davieduardo94 <davieduardo94@gmail.com> 1495762348 -0400	commit: adc suporte aos parametros de requisicao da pag produto
+39b71a1a998f07acce84eb1ca927a31ab88b7f66 2e4de961c257fd4f30dee1482566d0db75febd50 davieduardo94 <davieduardo94@gmail.com> 1495763526 -0400	commit: correcao de tags
+2e4de961c257fd4f30dee1482566d0db75febd50 f6b6956c9e9b1edbabb89b0b8964c4c3a2ae8f23 davieduardo94 <davieduardo94@gmail.com> 1495763571 -0400	commit: correcao de tags
+f6b6956c9e9b1edbabb89b0b8964c4c3a2ae8f23 86519145242c329b19743e11a84418ce30c035c9 davieduardo94 <davieduardo94@gmail.com> 1495767387 -0400	commit: adc parametros de requisao e bootstrap
+86519145242c329b19743e11a84418ce30c035c9 78ca42a16a95de1e01d28118bcaedcab247225dc davieduardo94 <davieduardo94@gmail.com> 1495767454 -0400	commit: adc input para post php na pag checkout
+78ca42a16a95de1e01d28118bcaedcab247225dc 79981b3c8c0092f543a2223edeccb3bb0b2e5929 davieduardo94 <davieduardo94@gmail.com> 1495772572 -0400	commit: layout c bootstrap
+79981b3c8c0092f543a2223edeccb3bb0b2e5929 97a4f5c99c0cd6d402093e8da69a55a993d5c06d davieduardo94 <davieduardo94@gmail.com> 1495774285 -0400	commit: correcao bootstrap
+97a4f5c99c0cd6d402093e8da69a55a993d5c06d b00862ceeb17fcf092a80e9d9178dd45a1fb894c davieduardo94 <davieduardo94@gmail.com> 1495774301 -0400	commit: correcao
+b00862ceeb17fcf092a80e9d9178dd45a1fb894c cb9fedb1ef11a074dc5ddc872e7786c0d8c228de davieduardo94 <davieduardo94@gmail.com> 1495910679 -0400	pull: Fast-forward
+cb9fedb1ef11a074dc5ddc872e7786c0d8c228de 93bd57e8a29e320f9c2b1aafe5468d4e6529de64 davieduardo94 <davieduardo94@gmail.com> 1495938903 -0400	commit: atualizacao
+93bd57e8a29e320f9c2b1aafe5468d4e6529de64 f31ebb4e75511a3c907ae43e881f4650cba66577 davieduardo94 <davieduardo94@gmail.com> 1496017044 -0400	commit: criacao do formulario
