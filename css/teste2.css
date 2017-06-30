@@ -2,6 +2,11 @@
     margin: 0 auto;
     width: 940px;
 }
+@media (max-width: 600px){
+  .menu-opcoes{
+    
+  }
+}
 header {
     position: relative;
 }
@@ -33,7 +38,7 @@ header {
 }*/
 .menu-opcoes a {
     color: #003366;
-    /*text-transform: uppercase ;*/ /*configuraca adicionada a partir daqui*/ 
+    /*text-transform: uppercase ;*/ /*configuraca adicionada a partir daqui*/
     /*text-decoration: none;*/
      /*fim*/
 }
@@ -152,7 +157,7 @@ body {
     color: #333;
 }
 .novidades img {
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 .novidades li:hover { /*hover nos itens do painel novidades*/
     transform: translate(0,-10px);
