@@ -81,11 +81,12 @@
            </div>
            <div class="form-group">
              <label for="bandeira-cartao">Bandeira</label>
-             <select class="form-control" name="bandeira-cartao" id="bandeira-cartao">
+             <select class="form-control" name="bandeira-cartao" id="bandeira-cartao"></select>
+               <option value="selecione">Selecione a bandeira...</option>
                <option value="master">MasterCard</option>
                <option value="visa">Visa</option>
-               <option value="visa">Elo</option>
-               <option value="visa">Dinners Club</option>
+               <option value="elo">Elo</option>
+               <option value="dinners">Dinners Club</option>
                <option value="amex"> American Express</option>
              </select>
            </div>
@@ -104,6 +105,8 @@
         </button>
       </form><!-- fim do formulario -->
   </div>
+  <br />
+  <br />
 
 
 </body>
