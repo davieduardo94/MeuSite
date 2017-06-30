@@ -88,8 +88,8 @@
              <input type="moth" class="form-control" id="validade-cartao" name="validade-cartao">
            </div>
         </fieldset>
-        <button type="suubmit" class="btn btn-lg btn-info ">
-          <span class="glyphicon glyphicon-thumbs-up"></span>
+        <button type="submit" class="btn btn-lg btn-info ">
+          <span class="glyphicon glyphicon-ok"></span>
           Confirmar Pedido
         </button>
       </form><!-- fim do formulario -->
