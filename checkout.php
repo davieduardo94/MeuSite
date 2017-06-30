@@ -55,7 +55,7 @@
             <label for="email">Email</label>
             <div class="input-group">
               <span class="input-group-addon">@</span>
-              <input type="email" class="form-control" id="email" name="email">
+              <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
             </div>
           </div>
           <div class="form-group">
@@ -73,13 +73,19 @@
           <legend>Cartao de Credito</legend>
            <div class="form-group">
              <label for="numeero-cartao">Numero - CVV</label>
-             <input type="text" class="form-control"  id="numero-cartao" name="numero-cartao">
+             <input type="text" class="form-control"  id="numero-cartao" name="numero-cartao" placeholder="1234 5678 9012 3456">
+             </div>
+             <div class="form-group">
+             <label for="codigo">Codigo de Verificação</label>
+             <input type="text" class="form-control"  id="codigo" name="codigo" placeholder="123">
            </div>
            <div class="form-group">
              <label for="bandeira-cartao">Bandeira</label>
              <select class="form-control" name="bandeira-cartao" id="bandeira-cartao">
                <option value="master">MasterCard</option>
                <option value="visa">Visa</option>
+               <option value="visa">Elo</option>
+               <option value="visa">Dinners Club</option>
                <option value="amex"> American Express</option>
              </select>
            </div>
@@ -88,9 +94,13 @@
              <input type="moth" class="form-control" id="validade-cartao" name="validade-cartao">
            </div>
         </fieldset>
-        <button type="submit" class="btn btn-lg btn-info ">
+        <button type="submit" class="btn btn-lg btn-info pull-left ">
           <span class="glyphicon glyphicon-ok"></span>
           Confirmar Pedido
+        </button>
+        <button type="reset" class="btn btn-lg btn-danger pull-right ">
+          <span class="glyphicon glyphicon-remove"></span>
+          Limpar
         </button>
       </form><!-- fim do formulario -->
   </div>
