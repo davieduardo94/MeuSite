@@ -81,7 +81,7 @@
            </div>
            <div class="form-group">
              <label for="bandeira-cartao">Bandeira</label>
-             <select class="form-control" name="bandeira-cartao" id="bandeira-cartao"></select>
+             <select class="form-control" name="bandeira-cartao" id="bandeira-cartao">
                <option value="selecione">Selecione a bandeira...</option>
                <option value="master">MasterCard</option>
                <option value="visa">Visa</option>
