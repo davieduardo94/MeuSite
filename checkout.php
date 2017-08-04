@@ -9,6 +9,17 @@
 </head>
 <body>
 <div class="container">
+  <nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.php">Mirror Fashion</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="sobre.php">Sobre</a></li>
+      <li><a href="#">Ajuda</a></li>
+      <li><a href="produto.php">Produto</a></li>
+      <li><a href="#">Entre em contato</a></li>
+    </ul>
+  </nav>
   <div class="jumbotron">
       <!-- <div class="container"> -->
         <h1> Ótima escolha!</h1>
@@ -18,12 +29,15 @@
   </div><!--fim div jumbotron-->
 </div><!--fim div container -->
 
-  <div class="container">
-      <div class="panel panel-info">
+  <div class="container"> <!-- inicio container -->
+    <div class="row"> <!-- incicio row -->
+      <div class="col-sm-4">
+        <div class="panel panel-info">
           <div class="panel-heading">
             <h2 class="panel-title">Sua compra</h2>
           </div><!-- fim .panel-heading -->
-        <div class="panel-body">
+
+        <div class="panel-body"> <!-- inicio painel body-->
           <img src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan"
                     class="img-thumbnail img-responsive"><!-- uma imagem estática sem envolver o PHP -->
           <!-- <img src="img/produtos/foto<?= $_POST["id"] ?>-<?= $_POST["cor"] ?> .png"
@@ -43,13 +57,17 @@
           </dl>
         </div> <!--fim .panel-body-->
       </div><!--fim .panel-->
+    </div> <!-- fim col-sm -->
 
-      <form><!-- inicio formulario -->
-        <fieldset>
+
+
+      <form class="col-sm-8"><!-- inicio formulario -->
+        <div class="row">
+        <fieldset class="col-md-6">
           <legend>Dados Pessoais</legend>
           <div class="form-group">
             <label for="nome">Nome Completo</label>
-            <input type="text" class="form-control" id="nome" name="nome" required="" autofocus>
+            <input type="text" class="form-control" id="nome" name="nome" required autofocus>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
@@ -68,43 +86,47 @@
               Quero receber spam da Mirror Fashion
             </label>
           </div>
-        </fieldset>
+        </fieldset class="col-md-6">
         <fieldset>
           <legend>Cartao de Credito</legend>
            <div class="form-group">
-             <label for="numeero-cartao">Numero - CVV</label>
+             <label for="numero-cartao">Numero - CVV</label>
              <input type="text" class="form-control"  id="numero-cartao" name="numero-cartao" placeholder="1234 5678 9012 3456">
+           </div>
+             <div class="form-group">
+               <label for="codigo">Codigo de Verificação</label>
+               <input type="text" class="form-control"  id="codigo" name="codigo" placeholder="123">
              </div>
              <div class="form-group">
-             <label for="codigo">Codigo de Verificação</label>
-             <input type="text" class="form-control"  id="codigo" name="codigo" placeholder="123">
-           </div>
-           <div class="form-group">
-             <label for="bandeira-cartao">Bandeira</label>
-             <select class="form-control" name="bandeira-cartao" id="bandeira-cartao">
-               <option value="selecione">Selecione a bandeira...</option>
-               <option value="master">MasterCard</option>
-               <option value="visa">Visa</option>
-               <option value="elo">Elo</option>
-               <option value="dinners">Dinners Club</option>
-               <option value="amex"> American Express</option>
-             </select>
-           </div>
-           <div class="form-group">
-             <label for="validade-cartao">Validade</label>
-             <input type="moth" class="form-control" id="validade-cartao" name="validade-cartao">
-           </div>
-        </fieldset>
-        <button type="submit" class="btn btn-lg btn-info pull-left ">
-          <span class="glyphicon glyphicon-ok"></span>
-          Confirmar Pedido
-        </button>
-        <button type="reset" class="btn btn-lg btn-danger pull-right ">
-          <span class="glyphicon glyphicon-remove"></span>
-          Limpar
-        </button>
+               <label for="bandeira-cartao">Bandeira</label>
+               <select class="form-control" name="bandeira-cartao" id="bandeira-cartao">
+                 <option value="selecione">Selecione a bandeira...</option>
+                 <option value="master">MasterCard</option>
+                 <option value="visa">Visa</option>
+                 <option value="elo">Elo</option>
+                 <option value="dinners">Dinners Club</option>
+                 <option value="amex"> American Express</option>
+               </select>
+             </div>
+             <div class="form-group">
+               <label for="validade-cartao">Validade</label>
+               <input type="moth" class="form-control" id="validade-cartao" name="validade-cartao">
+             </div>
+          </fieldset>
+        </div> <!-- fim div row-->
+            <button type="submit" class="btn btn-lg btn-info pull-left ">
+              <span class="glyphicon glyphicon-ok"></span>
+                Confirmar Pedido
+            </button>
+            <button type="reset" class="btn btn-lg btn-danger pull-right ">
+              <span class="glyphicon glyphicon-remove"></span>
+                Limpar
+            </button>
+
       </form><!-- fim do formulario -->
-  </div>
+  </div> <!-- fim container-->
+</div> <!-- fim row-->
+
   <br />
   <br />
 
