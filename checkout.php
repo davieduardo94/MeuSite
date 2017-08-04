@@ -59,8 +59,6 @@
       </div><!--fim .panel-->
     </div> <!-- fim col-sm -->
 
-
-
       <form class="col-sm-8"><!-- inicio formulario -->
         <div class="row">
         <fieldset class="col-md-6">
