@@ -2584,6 +2584,9 @@ output {
   background-color: transparent;
   border: 0;
 }
+.form-control::invalid{
+  border: 1px solid #cc0000;
+}
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
